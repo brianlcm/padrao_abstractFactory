@@ -1,10 +1,5 @@
 public class OrcamentoMotocicleta implements Orcamento {
-    public float emiteCustoTotal() {
-        return 50;
-    }
-
-    @Override
-    public float emiteCustoPorHora() {
-        return 5;
+    public String emiteCustoTotal() {
+        return "Orçamento da Motocicleta";
     }
 }
